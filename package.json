@@ -1,0 +1,25 @@
+{
+  "name": "stoke",
+  "version": "1.0.0",
+  "description": "A simple stock taking app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "notes",
+    "notes app",
+    "notes taking"
+  ],
+  "author": "Collins",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
