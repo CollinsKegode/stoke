@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+    <%- include('partials/nav') %>
+
+    <main id="products" class="container">
+
+        <% for (let product of products){ %> 
+            <h3><a href="/product/<%= product.id %>"><%= product.name %></a></h3>
+
+        <% } %>
+    </main>
+
+<%- include('partials/footer') %>
