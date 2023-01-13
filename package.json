@@ -8,9 +8,9 @@
     "start": "nodemon app.js"
   },
   "keywords": [
-    "notes",
-    "notes app",
-    "notes taking"
+    "pruducts",
+    "products app",
+    "products inventory"
   ],
   "author": "Collins",
   "license": "ISC",
