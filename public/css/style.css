@@ -65,3 +65,62 @@ nav li {
 #home img {
     width: 100%;
 }
+
+#add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#name {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus {
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+	background: #6AABD2;
+	color: white;
+	border-style: outset;
+	border-color: #6AABD2;
+    border-radius: 5px;
+	height: 50px;
+	width: 100px;
+	text-shadow: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	text-shadow: none;
+}
